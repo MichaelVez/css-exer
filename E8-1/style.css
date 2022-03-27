@@ -1,0 +1,120 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+  background-color: darkgray;
+  text-align: center;
+}
+.btn1 {
+  border: none;
+  margin: 30px;
+  font-size: 40px;
+}
+
+#one {
+  background-color: #9df3c4;
+}
+#one:hover {
+  background-color: #62d2a2;
+}
+#two {
+  background-color: #e84545;
+  font-size: 30px;
+}
+#two:hover {
+  background-color: #903749;
+}
+#three {
+  background-color: #a6e3e9;
+  font-size: 20px;
+}
+#three:hover {
+  background-color: #71c9ce;
+}
+/* ghost */
+.btn2 {
+  border: none;
+  border-radius: 20px;
+  margin: 30px;
+}
+#one2 {
+  background-color: orange;
+  font-size: 40px;
+}
+#one2:hover {
+  background-color: #ff7800;
+}
+#two2 {
+  background-color: #fff323;
+  font-size: 30px;
+}
+#two2:hover {
+  background-color: #ffca03;
+}
+#three2 {
+  background-color: #efefef;
+  font-size: 20px;
+}
+#three2:hover {
+  background-color: #d1d1d1;
+}
+.btn3 {
+  margin: 30px;
+}
+#one3 {
+  background-color: darkgray;
+  border: 3px solid #9df3c4;
+  font-size: 40px;
+}
+#one3:hover {
+  background-color: #62d2a2;
+  border-color: #62d2a2;
+}
+#two3 {
+  background-color: darkgray;
+  border: 3px solid #e84545;
+  font-size: 30px;
+}
+#two3:hover {
+  background-color: #903749;
+  border-color: #903749;
+}
+#three3 {
+  background-color: darkgray;
+  border: 3px solid #a6e3e9;
+  font-size: 20px;
+}
+#three3:hover {
+  background-color: #71c9ce;
+  border-color: #71c9ce;
+}
+.btn4 {
+  border: none;
+  border-radius: 20px;
+  margin: 30px;
+}
+#one4 {
+  background-color: darkgray;
+  border: orange 4px solid;
+  font-size: 40px;
+}
+#one4:hover {
+  background-color: #ff7800;
+  border-color: #ff7800;
+}
+#two4 {
+  background-color: darkgray;
+  border: #fff323 4px solid;
+  font-size: 30px;
+}
+#two4:hover {
+  background-color: #ffca03;
+  border-color: #ffca03;
+}
+#three4 {
+  background-color: darkgray;
+  border: #efefef 4px solid;
+  font-size: 20px;
+}
+#three4:hover {
+  background-color: #d1d1d1;
+  border-color: #d1d1d1;
+}
