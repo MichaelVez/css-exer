@@ -1,0 +1,32 @@
+.box {
+  border: 3px solid lightseagreen;
+  background-color: lightcoral;
+  position: absolute;
+}
+#box-1 {
+  top: 0;
+  bottom: 50%;
+  left: 0;
+  right: 75%;
+  background-color: lightsalmon;
+}
+#box-2 {
+  top: 25%;
+  bottom: 25%;
+  left: 15%;
+  right: 50%;
+  background-color: lightyellow;
+}
+#box-3 {
+  top: 65%;
+  bottom: 15%;
+  left: 0;
+  right: 0;
+  background-color: lightslategrey;
+}
+#box-4 {
+  left: 60%;
+  right: 10%;
+  top: 0;
+  bottom: 0;
+}

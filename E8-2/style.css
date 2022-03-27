@@ -9,6 +9,10 @@ header {
   border: 5px solid #71c9ce;
   padding: 5px;
 }
+nav {
+  /* position: sticky; */
+  /* top: 0; */
+}
 li {
   display: inline-block;
   margin: 20px;
