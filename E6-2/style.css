@@ -2,13 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Indie Flower", cursive;
+  font-weight: 600;
 }
 h2 {
-  border: 5px solid blue;
-  color: red;
-}
-.container2 {
-  border: 5px solid greenyellow;
+  border: 5px solid gold;
+  text-align: center;
 }
 .card {
   background-color: lightgray;
