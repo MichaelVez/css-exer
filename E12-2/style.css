@@ -1,0 +1,13 @@
+p {
+  border: 5px solid black;
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+}
+@media (max-width: 1268px) {
+  p {
+    color: red;
+    display: block;
+    margin: auto;
+  }
+}
