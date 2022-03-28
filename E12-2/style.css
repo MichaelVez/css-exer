@@ -6,7 +6,8 @@ p {
 }
 @media (max-width: 1268px) {
   p {
-    color: red;
+    color: gold;
+    background-color: gray;
     display: block;
     margin: auto;
   }
