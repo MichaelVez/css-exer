@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        background-color: yellow;
+        box-sizing: border-box;
+      }
+      body {
+        height: 100vh;
+        width: 100vh;
+        margin: auto;
+      }
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+      .navitem {
+        cursor: pointer;
+        position: relative;
+        padding: 10px;
+      }
+      .navitem:before {
+        content: "";
+        top: 0%;
+        left: 0%;
+        width: 0%;
+        position: absolute;
+        border-top: 2px solid;
+        transition: all 1s;
+      }
+      .navitem:after {
+        content: "";
+        bottom: 0%;
+        right: 0%;
+        width: 0%;
+        position: absolute;
+        border-bottom: 2px solid;
+        transition: all 1s;
+      }
+      .navitem:hover::after {
+        width: 100%;
+      }
+      .navitem:hover::before {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navitem" id="nav1">Home</div>
+      <div class="navitem">About</div>
+      <div class="navitem">Service</div>
+      <div class="navitem">Portfolio</div>
+      <div class="navitem">Dogs</div>
+    </nav>
+  </body>
+</html>
