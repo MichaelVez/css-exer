@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .contain {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid olive;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: relative;
+      }
+      .box:after {
+        transition: 1s;
+        content: "";
+        position: absolute;
+        right: -100px;
+        height: 100px;
+        width: 100px;
+        background-color: purple;
+      }
+      .box:hover:after {
+        transform: translateX(-100px);
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contain">
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
