@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .tooltip {
+        position: relative;
+        border-bottom: 2px dotted lightblue;
+        cursor: pointer;
+      }
+      .tooltiptext {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        display: none;
+        z-index: 1;
+        background-color: black;
+        color: #fff;
+        border-radius: 25%;
+        padding: 10px;
+      }
+      .tooltip:hover {
+        color: lightblue;
+      }
+      .tooltip:hover .tooltiptext {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, tempore
+      laboriosam. Cum veritatis, odio tempore blanditiis alias, neque
+      reprehenderit ex, aspernatur debitis iusto iure officiis? Doloremque et
+      nam labore harum beatae animi eos. Reiciendis excepturi temporibus, dolore
+      exercitationem hic autem cum necessitatibus iste commodi, id, explicabo
+      natus ipsum numquam nemo.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat itaque
+      voluptatibus cupiditate consectetur debitis
+      <span class="tooltip"
+        >porro eos!<span class="tooltiptext"
+          >Tooltip text, Surprise!</span
+        ></span
+      >
+      Aspernatur qui soluta maiores! Libero obcaecati cumque non eos. Ipsum
+      doloremque dignissimos in natus repudiandae optio suscipit quisquam nihil,
+      commodi ratione aspernatur iure? Ab culpa dolorum ducimus, aliquam rem
+      voluptatum voluptates nam vel eum.
+    </p>
+  </body>
+</html>
