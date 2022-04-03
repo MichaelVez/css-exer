@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 5px;
+      }
+      .grid div {
+        border: 1px solid black;
+      }
+      .headred {
+        background-color: red;
+        grid-column-start: span 4;
+      }
+      .menublue {
+        background-color: blue;
+        grid-row: 2 / span 3;
+        grid-column: 1 / span 2;
+      }
+      .content {
+        background-color: green;
+        grid-column: span 2;
+      }
+      .morepurp {
+        background-color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="headred">head</div>
+      <div class="menublue">menu</div>
+      <div class="content">main</div>
+      <div class="morepurp">about</div>
+      <div class="morepurp">contact</div>
+    </div>
+  </body>
+</html>
